@@ -1,4 +1,4 @@
-// import './style/main.scss';
+import './style/main.scss';
 
 import React from 'react';
 import ReactDom from 'react-dom';
@@ -16,17 +16,18 @@ class Main extends React.Component {
     super(props);
   }
 
-  componentDidMount() {
-    store.subscribe(() => {
-      console.log('__STORE__', store.getState());
-    });
-  }
+  // componentDidMount() {
+  //   store.subscribe(() => {
+  //     console.log('__STORE__', store.getState());
+  //   });
+  // }
+  
 
   render() {
     return (
       <Provider store={store}>
         <BrowserRouter>
-        <App/>
+          <App/>
         </BrowserRouter>
       </Provider>
     );
