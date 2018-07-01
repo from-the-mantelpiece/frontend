@@ -1,5 +1,3 @@
-// import './style/main.scss';
-
 import React from 'react';
 import ReactDom from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
@@ -15,18 +13,12 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
   }
-
-  componentDidMount() {
-    store.subscribe(() => {
-      console.log('__STORE__', store.getState());
-    });
-  }
-
+  
   render() {
     return (
       <Provider store={store}>
         <BrowserRouter>
-        <App/>
+          <App/>
         </BrowserRouter>
       </Provider>
     );

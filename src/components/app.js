@@ -1,4 +1,4 @@
-import '../style/main.scss';
+import '../style/app.scss';
 
 import React from 'react';
 
@@ -11,7 +11,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <Categories/>
+      <React.Fragment>
+        <Categories/>
+      </React.Fragment>
     );
   }
 }
+
+export default App;
