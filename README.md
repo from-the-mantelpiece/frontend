@@ -2,7 +2,7 @@
 
 ## Motivation
 
-* Photo Sharing Application - to provide private photo uploading for albums between members of designated groups. ACL
+* Photo Sharing Application - to provide private photo uploading for albums between members of designated groups. ACL - Permissions - MongoDB
 
 ## Tech and Framework Used
 
