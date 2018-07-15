@@ -2,7 +2,7 @@ import './cards.scss';
 
 import React from 'react';
 import {connect} from 'react-redux';
-import {cardCreate, cardUpdate, cardDelete} from '../../app/actions/card.js';
+import {cardCreate, cardUpdate, cardDelete} from '../../app/actions/cards.js';
 
 import CardList from './card-list';
 
