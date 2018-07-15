@@ -1,0 +1,9 @@
+@import "../../style/theme/variables";
+
+footer {
+  background: $baseDark;
+  color: $baseLight;
+  border-top: 2px double black;
+  margin-top: 2em;
+  padding: 0 2em;
+}
